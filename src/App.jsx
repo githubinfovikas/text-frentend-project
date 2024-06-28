@@ -1,5 +1,6 @@
-import { useState } from 'react'
 import Navbar from './components/Navbar'
+import About from './components/About'
+import Home from './components/Home'
 
 function App() {
 
@@ -7,6 +8,8 @@ function App() {
    <>
     <div className='bg-red-400'>
     <Navbar/>
+    <About/>
+    <Home/>
     </div>
    </>
   )
